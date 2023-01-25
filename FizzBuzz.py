@@ -11,3 +11,12 @@ class Solution:
             else:
                 answer.append(str(i))
         return answer
+
+    # I create a list to the answers, where I then iterate through "n"
+    # and if "i" is divisible by 3 and 5, I append "FizzBuzz" to the created list.
+
+    # If it's divisible by 3 only, I append "Fizz" to the created list.
+
+    # If it's divisible by 5 only, I append "Buzz" to the created list.
+
+    # Lastly I return the list
