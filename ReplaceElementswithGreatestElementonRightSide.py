@@ -17,5 +17,5 @@ class Solution:
 
     # I then assign the "arr[i]"/current value to "rigthMax" and
     # assign "rightMax" to newMax, placing the bigger value to the
-    # side so I can iterate through the rest of the list without
+    # side, so I can iterate through the rest of the list without
     # "newMax"
