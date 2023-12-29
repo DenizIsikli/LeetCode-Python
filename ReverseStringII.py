@@ -5,3 +5,8 @@ class Solution:
             s_list[i:i+k] = reversed(s_list[i:i+k])
 
         return "".join(s_list)
+
+    # I create a list from the string.
+    # I iterate through the list in steps of 2*k.
+    # I reverse the slice of the list from i to i+k.
+    # I return the list as a string.
