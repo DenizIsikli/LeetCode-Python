@@ -10,3 +10,8 @@ class Solution:
 
         for i in range(n):
             matrix[i].reverse()
+
+    # I first find the transpose of the matrix by swapping the elements across the diagonal,
+    # basically x, y coordinates in a regular graph
+    # I then reverse each row of the matrix
+    # This rotates the matrix by 90 degrees
